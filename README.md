@@ -1,4 +1,19 @@
 # Ambient Healthcare Agent for Patients
+
+<!-- frontend:start -->
+## Project explorer
+
+A browsable front end for this repository, built from its own README, Compose files, dependency manifests and folder layout. Clone the repository and open `frontend/index.html` in a browser to explore it.
+
+| Overview | Architecture |
+|---|---|
+| ![Overview](docs/frontend/overview.png) | ![Architecture](docs/frontend/architecture.png) |
+
+| Tech stack | Files |
+|---|---|
+| ![Tech stack](docs/frontend/stack.png) | ![Files](docs/frontend/files.png) |
+<!-- frontend:end -->
+
 ## Overview
 An agentic healthcare front desk can assist patients and healthcare professional staff by reducing the burden of the patient intake process, structuring responses into documentation and thus allowing for more patient-clinical staff quality time. This developer example provides developers with a reference implementation of an voice agent powered by NVIDIA LLM NIM, NVIDIA RIVA ASR and TTS NIM, and NeMo Guardrails. It includes a demonstration of the agent's capabilities in a typical conversation between a patient and a healthcare clinical staff member.
 
